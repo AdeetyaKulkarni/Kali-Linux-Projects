@@ -6,6 +6,10 @@ import time
 import sys
 import optparse as op
 
+#Allows flow of packets - keeps the internat connection on the target computer.
+subprocess.call(['echo',' 1 ',' > ','/proc','/sys','/net','/ipv4','/ip_forward'])
+print('[+]Packet Passage created succesfully')
+
 
 def get_mac(ip):
 
