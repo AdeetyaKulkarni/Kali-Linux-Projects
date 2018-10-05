@@ -16,3 +16,12 @@ Running a program:
 Download and place into desired directory (eg Kali_scripts)
 Open Kali Terminal and change to directory by using cd command
 type python programname.py [inputs]
+
+
+Packet_Sniffer manual. 
+Need download a http layer scanner for scapy
+Steps:
+1) Go to terminal
+2) write - pip install scapy_http
+3) Press Enter
+[+] Done!
